@@ -2,7 +2,7 @@ env:
     SYSDIG_SECURE_ENDPOINT: "https://eu1.app.sysdig.com"
     REGISTRY_HOST: "docker.io"
     IMAGE_NAME: "k8stuff"
-    IMAGE_TAG: "pipeline-test-2"
+    IMAGE_TAG: "github-pipeline-test"
     DOCKERFILE_CONTEXT: "githubdemo/nginx/"
   
 name: Container build, scan and push
